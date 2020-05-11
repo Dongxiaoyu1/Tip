@@ -99,6 +99,7 @@ public class AddFeeActivity extends BaseActivity implements View.OnClickListener
             schooling.subid = mCurSubject._ID;
             schooling.sid = 1;
             schoolingDao.addSchooling(schooling);
+            this.finish();
 
         }else if(id == R.id.button_cancel)
         {

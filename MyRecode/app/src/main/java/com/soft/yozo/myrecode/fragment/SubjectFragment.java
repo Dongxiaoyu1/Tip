@@ -74,7 +74,7 @@ public class SubjectFragment extends Fragment
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
-        if(isVisibleToUser)
+        if(isVisibleToUser && subjectService != null)
         {
             mSubjects = subjectService.getAllSubjects();
             mSubjectAdapter.notifyDataSetChanged();
