@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上课记录："
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+    </LinearLayout>
+    <com.soft.yozo.myrecode.view.HorWheelView
+        android:id="@+id/recode_customweekview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+    </com.soft.yozo.myrecode.view.HorWheelView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        card_view:cardCornerRadius="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fragment_recode_rc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+            <TextView
+                android:id="@+id/fragment_recode_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/recode_button_background"
+                android:gravity="center"
+                android:text="打卡"
+                android:clickable="true">
+            </TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">安安兴趣班</string>
+    <string name="monday">一</string>
+    <string name="Tuesday">二</string>
+    <string name="Wednesday">三</string>
+    <string name="Thursday">四</string>
+    <string name="Friday">五</string>
+    <string name="saturday">六</string>
+    <string name="sunday">日</string>
+    <array name="titles">
+        <item>课程名</item>
+        <item>总次数</item>
+        <item>已使用</item>
+        <item>剩余</item>
+    </array>
+    <array name="historytitles">
+        <item>课程名</item>
+        <item>次数</item>
+        <item>费用</item>
+        <item>日期</item>
+    </array>
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGray">#eeeeee</color>
+    <!-- 彩虹色
+     红色 #FF0000
+    橙色 #FF7F00
+    黄色 #FFFF00
+    绿色 #00FF00
+    青色 #00FFFF
+    蓝色 #0000FF
+    紫色 #8B00FF
+     -->
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF9966</color>
+    <color name="yellow">#FF99CC</color>
+    <color name="green">#00FF00</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#8B00FF</color>
+</resources>

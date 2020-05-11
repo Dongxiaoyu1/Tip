@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Item4TextView">
+        <attr name="texts" format="reference"></attr>
+        <attr name="isTitle" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="custom_wheel">
+        <attr name="center_text_color" format="reference|color"></attr>
+        <attr name="outer_text_color" format="reference|color"></attr>
+        <attr name="indicator_color" format="reference|color"></attr>
+        <attr name="indicator_width" format="reference|dimension"></attr>
+    </declare-styleable>
+</resources>

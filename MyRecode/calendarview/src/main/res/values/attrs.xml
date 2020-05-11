@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="calendar_style">
+        <attr name="calendar_textsize" format="dimension"></attr>
+    </declare-styleable>
+</resources>

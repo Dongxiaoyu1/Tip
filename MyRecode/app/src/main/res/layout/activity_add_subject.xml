@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddSubjectActivity">
+
+    <TextView
+        android:id="@+id/subject_lable1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="学科名:"
+        android:layout_marginTop="40dp"
+        app:layout_constraintRight_toLeftOf="@id/subject_et"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/subject_et">
+
+    </TextView>
+    <EditText
+        android:id="@+id/subject_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="40dp"
+        app:layout_constraintLeft_toRightOf="@id/subject_lable1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+    <Button
+        android:id="@+id/subject_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="添加"
+        app:layout_constraintTop_toBottomOf="@id/subject_et"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
